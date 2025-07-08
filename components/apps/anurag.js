@@ -109,11 +109,9 @@ export const displayAboutAnurag = () => {
 function About() {
     return (
         <>
-            <div className="w-20 md:w-28 my-4 bg-white rounded-full">
-                <img className="w-full" src="./images/logos/me.jpg" alt="Logo" />
-            </div>
+        
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>This is <span className="font-bold">Anurag Pathak</span> ,</div>
+                <div>This is <span className="font-bold">Aryan Raj</span> ,</div>
                 <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Software developer</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -121,14 +119,10 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm an <span className=" font-medium">Undergraduate Student</span> currently pursuing Computer Science from GL Bajaj Institute of Technology and Management, and I'm open for internship opportunities!</li>
-                <li className=" mt-3 list-star"> I have interest in Web development and Machine learning</li>
-                <li className=" mt-3 list-time"> Other than coding, I love to study about human pshycology and watching science fiction movies</li>
-                <li className=" mt-3 list-social">Connect with me - 
-                    <p><u><a href="https://www.linkedin.com/in/anuragpathak0/" target="_blank" rel="noreferrer">Linkedin</a></u></p>
-                    <p><u><a href="https://github.com/ANURAG-PATHAK" target="_blank" rel="noreferrer">GitHub</a></u></p>
-                    <p><u><a className='text-underline' href='mailto:pathakanurag605@gmail.com'><u>GMail</u></a></u></p>
-                </li>
+                <li className=" list-pc">I'm an <span className=" font-medium">Undergraduate Student</span> currently pursuing Btech Computer Science from Graphic Era Hill University,Dehradun, and I'm open for internship opportunities!</li>
+                <li className=" mt-3 list-star"> I have interest in Web development </li>
+                <li className=" mt-3 list-time"> Other than coding, I love to play chess </li>
+               
             </ul>
         </>
     )
@@ -146,25 +140,25 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        GL Bajaj Institute of Technology and Management
+                        Graphic Era Hill University, Dehradun
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2020 - 2024</div>
                     <div className=" text-sm md:text-base">Computer Science and Engineering</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (Army Public School, Lucknow)
+                        Class 12<sup>th</sup> (SGRR Public School,Haridwar)
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2019</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2022</div>
                     <div className=" text-sm md:text-base">Maths, Physics, Chemistry</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 81.4%</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 80%</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 10<sup>th</sup> (Army Public School, Lucknow)
+                        Class 10<sup>th</sup> (Whizzkid International School,Haridwar)
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2016 - 2017</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA - 10</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2020</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Percentage - 88%</div>
                 </li>
             </ul>
         </>
@@ -188,9 +182,6 @@ function Skills() {
                     <div>I am a <strong className="text-ubt-gedit-orange">MERN stack developer,</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div>I was the Lead of Google Developer Student club</div>
-                </li>
-                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
                 </li>
             </ul>
@@ -203,7 +194,6 @@ function Skills() {
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
                         <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-grey?style=flat&logo=c%2B%2B" alt="C++" />
                         <img className="m-1" src="https://img.shields.io/badge/-JavaScript-grey?style=flat&logo=javascript" alt="JavaScript" />
-                        <img className="m-1" src="http://img.shields.io/badge/-Python-grey?style=flat&logo=python" alt="Python" />
                         <img src="https://img.shields.io/badge/-Git-grey?style=flat&logo=git" alt="git" className="m-1" />
                     </div>
                 </div>
@@ -213,7 +203,7 @@ function Skills() {
                         <img className=" m-1" src="https://img.shields.io/badge/-Express.js-grey?style=flat&logo=express" alt="Express" />
                         <img className=" m-1" src="https://img.shields.io/badge/-React-grey?style=flat&logo=react" alt="React" />
                         <img src="https://img.shields.io/badge/-Nodejs-grey?style=flat&logo=Node.js" alt="Node.js" className="m-1" />
-                        <img className=" m-1" src="http://img.shields.io/badge/-Linux-grey?style=flat&logo=linux" alt="linux" /> 
+                       
                     </div>
                 </div>
             </div>
@@ -224,37 +214,12 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "Daibetes Prediction System",
-            link: "https://github.com/ANURAG-PATHAK/DiabetesPredictionSystem",
+            name: "CodeInspectAI",
+            link: "#",
             description: [
-                "A machine learning project.",
-                "I used supervised learning and took labeled data from Kaggle",
-                "I have created a Diabetes Prediction system using Linear Regression and K-Nearest-Neighbor algorithms"
+                "**"
             ],
             domains: ["Python", "Scikit-Learn", "Pandas", "Numpy"]
-        },
-        {
-            name: "Ecommerce App",
-            link: "https://github.com/ANURAG-PATHAK/Ecommerce-App",
-            description: [
-                "This is a complete MERN stack App, with authentication and payment gateway",
-                "This is a Single Page Application, with a responsive design",
-                "I used state management using context API",
-                "I also integrated a admin portal, where admin can add, delete and update products",
-            ],
-            domains: ["NodeJS", "express.js", "MongoDB", "ReactJS", "Context API", "Bootsrap"]
-        },
-        {
-            name: "Software Developer Salary Prediction WebApp",
-            link: "https://github.com/ANURAG-PATHAK/Software-Developer-Salary-Prediction-WebApp",
-            description: [
-                "This is a Machine learning based web app",
-                "It predicts a software engineer's salary on the basis of certain inputs",
-                "The model trained on Decision tree",
-                "The dataset used was from StackOverflow developer's survey 2022",
-                "I have also implemented some data exploration and visualization in the web App itself "
-            ],
-            domains: ["Numpy", "Python", "Pandas", "Scikit-Learn", "Streamlit", "Matplotlib", "Seaborn"]
         },
     ];
 
